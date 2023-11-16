@@ -1,33 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>paper-conference | Academic</title>
+    <title>paper-conference | Emily Black</title>
     <link>https://example.com/publication-type/paper-conference/</link>
       <atom:link href="https://example.com/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>paper-conference</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu42b8ed96e263035912c435ba5ad11efd_14268_512x512_fill_lanczos_center_3.png</url>
       <title>paper-conference</title>
       <link>https://example.com/publication-type/paper-conference/</link>
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://example.com/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+      <title>Less Discriminatory Algorithms</title>
+      <link>https://example.com/publication/less_discriminatory_algorithms/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/less_discriminatory_algorithms/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Toward Operationalizing Pipeline-aware ML Fairness: A Research Agenda for Developing Practical Guidelines and Tools</title>
+      <link>https://example.com/publication/operationalizing_pipeline_aware/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/operationalizing_pipeline_aware/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estimating and Implementing Conventional Fairness Metrics With Probabilistic Protected Features</title>
+      <link>https://example.com/publication/probabilistic_protected_fairness/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/probabilistic_protected_fairness/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithmic fairness and vertical equity: Income fairness with IRS tax audit models</title>
+      <link>https://example.com/publication/income_fairness_with_irs/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/income_fairness_with_irs/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Model multiplicity: Opportunities, concerns, and solutions</title>
+      <link>https://example.com/publication/model_multiplicity_opportunities/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/model_multiplicity_opportunities/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Selective ensembles for consistent predictions</title>
+      <link>https://example.com/publication/selective_ensembles/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/selective_ensembles/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>(Un) Fairness Along the AI Pipeline Problems and Solutions</title>
+      <link>https://example.com/publication/unfairness_ai_pipeline/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/unfairness_ai_pipeline/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consistent counterfactuals for deep models</title>
+      <link>https://example.com/publication/consistent_counterfactuals/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/consistent_counterfactuals/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leave-one-out unfairness</title>
+      <link>https://example.com/publication/leave_one_out/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/leave_one_out/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluating facial recognition technology: a protocol for performance assessment in new domains</title>
+      <link>https://example.com/publication/evaluating_facial_recognition/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/evaluating_facial_recognition/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A call for universities to develop requirements for community engagement in AI</title>
+      <link>https://example.com/publication/call_for_universities_community_engagement/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/call_for_universities_community_engagement/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fliptest: fairness testing via optimal transport</title>
+      <link>https://example.com/publication/fliptest/</link>
+      <pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/fliptest/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feature-wise bias amplification</title>
+      <link>https://example.com/publication/featurewise_bias_amplification/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/featurewise_bias_amplification/</guid>
+      <description>&lt;!--Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).--&gt;
 </description>
     </item>
     

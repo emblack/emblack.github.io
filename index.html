@@ -937,7 +937,7 @@
           <li>
             <i class="fa-li fa-solid fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">BSc in Computer Science &amp; BSc in Math, 2017</p>
+              <p class="course">BA in Computer Science; Math; English, 2017</p>
               <p class="institution">Wesleyan University</p>
             </div>
           </li>
@@ -1550,10 +1550,8 @@
 
   <span class="author-highlighted">
       Emily Black</span>, <span >
-      Hadi Elzayn</span>, <span >
-      Alexandra Chouldechova</span>, <span >
-      Jacob Goldin</span>, <span >
-      Daniel Ho</span>
+      Klas Leino</span>, <span >
+      Matt Fredrikson</span>
   </div>
   
   
@@ -1564,7 +1562,7 @@
     
       
     
-    June, 2022
+    November, 2022
   </span>
   
 
@@ -1572,7 +1570,7 @@
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      In <em>FAccT</em>
+      In <em>ICLR</em>
     
   </span>
   
@@ -1596,13 +1594,13 @@
   
 
   <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/income_fairness_with_irs/" >Algorithmic fairness and vertical equity: Income fairness with IRS tax audit models</a>
+    <a href="/publication/selective_ensembles/" >Selective ensembles for consistent predictions</a>
   </div>
 
   
-  <a href="/publication/income_fairness_with_irs/"  class="summary-link">
+  <a href="/publication/selective_ensembles/"  class="summary-link">
     <div class="article-style">
-      <p>This study examines issues of algorithmic fairness in the context of systems that inform tax audit selection by the United States Internal Revenue Service (IRS). While the field of algorithmic fairness has developed primarily around notions of treating like individuals alike, we instead explore the concept of vertical equity—appropriately accounting for relevant differences across individuals—which is a central component of fairness in many public policy settings. Applied to the design of the U.S. individual income tax system, vertical equity relates to the fair allocation of tax and enforcement burdens across taxpayers of different income levels. Through a unique collaboration with the Treasury Department and IRS, we use access to detailed, anonymized individual taxpayer microdata, risk-selected audits, and random audits from 2010-14 to study vertical equity in tax administration. In particular, we assess how the adoption of modern machine learning methods for selecting taxpayer audits may affect vertical equity. Our paper makes four contributions. First, we show how the adoption of more flexible machine learning (classification) methods—as opposed to simpler models—shapes vertical equity by shifting audit burdens from high to middle-income taxpayers. Second, given concerns about high audit rates of lowincome taxpayers, we investigate how existing algorithmic fairness techniques would change the audit distribution. We find that such methods can mitigate some disparities across income buckets, but that these come at a steep cost to performance. Third, we show that the choice of whether to treat risk of underreporting as a classification or regression problem is highly consequential. Moving from a classification approach to a regression approach to predict the expected magnitude of underreporting shifts the audit burden substantially toward high income individuals, while increasing revenue. Last, we investigate the role of differential audit cost in shaping the distribution of audits. Audits of lower income taxpayers, for instance, are typically conducted by mail and hence pose much lower cost to the IRS. We show that a narrow focus on return-on-investment can undermine vertical equity. Our results have implications for ongoing policy debates and the design of algorithmic tools across the public sector.</p>
+      <p>Recent work has shown that models trained to the same objective, and which achieve similar measures of accuracy on consistent test data, may nonetheless behave very differently on individual predictions. This inconsistency is undesirable in high-stakes contexts, such as medical diagnosis and finance. We show that this inconsistent behavior extends beyond predictions to feature attributions, which may likewise have negative implications for the intelligibility of a model, and one&rsquo;s ability to find recourse for subjects. We then introduce selective ensembles to mitigate such inconsistencies by applying hypothesis testing to the predictions of a set of models trained using randomly-selected starting conditions; importantly, selective ensembles can abstain in cases where a consistent outcome cannot be achieved up to a specified confidence level. We prove that that prediction disagreement between selective ensembles is bounded, and empirically demonstrate that selective ensembles achieve consistent predictions and feature attributions while maintaining low abstention rates. On several benchmark datasets, selective ensembles reach zero inconsistently predicted points, with abstention rates as low 1.5%.</p>
     </div>
   </a>
   
@@ -1625,7 +1623,7 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/income_fairness_with_irs/cite.bib">
+        data-filename="/publication/selective_ensembles/cite.bib">
   Cite
 </a>
 
@@ -1644,7 +1642,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3531146.3533204" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2111.08230.pdf" target="_blank" rel="noopener">
   Source Document
 </a>
 
@@ -1688,9 +1686,7 @@
     
 
   <span class="author-highlighted">
-      Emily Black</span>, <span >
-      Manish Raghavan</span>, <span >
-      Solon Barocas</span>
+      Emily Black</span>
   </div>
   
   
@@ -1701,7 +1697,7 @@
     
       
     
-    June, 2022
+    October, 2022
   </span>
   
 
@@ -1709,7 +1705,7 @@
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      In <em>FAccT</em>
+      PhD Thesis
     
   </span>
   
@@ -1733,13 +1729,13 @@
   
 
   <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/publication/model_multiplicity_opportunities/" >Model multiplicity: Opportunities, concerns, and solutions</a>
+    <a href="/publication/unfairness_ai_pipeline/" >(Un) Fairness Along the AI Pipeline Problems and Solutions</a>
   </div>
 
   
-  <a href="/publication/model_multiplicity_opportunities/"  class="summary-link">
+  <a href="/publication/unfairness_ai_pipeline/"  class="summary-link">
     <div class="article-style">
-      <p>Recent scholarship has brought attention to the fact that there often exist multiple models for a given prediction task with equal accuracy that differ in their individual-level predictions or aggregate properties. This phenomenon—which we call model multiplicity—can introduce a good deal of flexibility into the model selection process, creating a range of exciting opportunities. By demonstrating that there aremany differentways ofmaking equally accurate predictions, multiplicity gives model developers the freedom to prioritize other values in their model selection process without having to abandon their commitment to maximizing accuracy. However, multiplicity also brings to light a concerning truth - model selection on the basis of accuracy alone—the default procedure in many deployment scenarios—fails to consider what might be meaningful differences between equally accurate models with respect to other criteria such as fairness, robustness, and interpretability. Unless these criteria are taken into account explicitly, developers might end up making unnecessary trade-offs or could even mask intentional discrimination. Furthermore, the prospect that there might exist another model of equal accuracy that flips a prediction for a particular individual may lead to a crisis in justifiability - why should an individual be subject to an adverse model outcome if there exists an equally accurate model that treats them more favorably? In this work, we investigate how to take advantage of the flexibility afforded by model multiplicity while addressing the concerns with justifiability that it might raise?</p>
+      <p>Artificial Intelligence (AI) systems now influence decisions impacting every aspect of people’s lives, from the news articles they read, to whether or not they receive a loan. While the use of AI may lead to great accuracy and efficiency in the making of these important decisions, recent news and research reports have shown that AI models can act unfairly - from exhibiting gender bias in hiring models, to racial bias in recidivism prediction systems. <br><br>This thesis explores new methods for understanding and mitigating fairness issues in AI through considering how choices made throughout the process of creating an AI system—i.e., the modeling pipeline—impacts fairness behavior. First, I will show how considering a model’s end-to-end pipeline allows us to expand our understanding of unfair model behavior. In particular, my work introduces a connection between AI system stability and fairness by demonstrating how instability in certain parts of the modeling pipeline, namely the learning rule, can lead to unfairness by having important decisions rely on arbitrary modeling choices. <br><br>Secondly, I will discuss how considering ML pipelines can help us expand our toolbox of bias mitigation techniques. In a case study investigating equity with respect to income in tax auditing practices, I will demonstrate how interventions made along the AI creation pipeline—even those not related to fairness on their face—can not only be effective for increasing fairness, but can often reduce tradeoffs between predictive utility and fairness. <br><br>Finally, I will close with an overview of the benefits and dangers of the flexibility that the AI modeling pipeline affords practitioners in the creation of their models, including a discussion of the the legal repercussions of this flexibility, which I call model multiplicity.</p>
     </div>
   </a>
   
@@ -1762,7 +1758,7 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/model_multiplicity_opportunities/cite.bib">
+        data-filename="/publication/unfairness_ai_pipeline/cite.bib">
   Cite
 </a>
 
@@ -1781,7 +1777,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3531146.3533149" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://kilthub.cmu.edu/articles/thesis/_Un_Fairness_Along_the_AI_Pipeline_Problems_and_Solutions/23302478/1/files/41078390.pdf" target="_blank" rel="noopener">
   Source Document
 </a>
 

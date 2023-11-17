@@ -30,8 +30,20 @@
     <lastmod>2023-10-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://example.com/publication/selective_ensembles/</loc>
+    <lastmod>2022-11-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication/unfairness_ai_pipeline/</loc>
+    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication/consistent_counterfactuals/</loc>
+    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/income_fairness_with_irs/</loc>
@@ -40,18 +52,6 @@
   </url><url>
     <loc>https://example.com/publication/model_multiplicity_opportunities/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication/selective_ensembles/</loc>
-    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication/unfairness_ai_pipeline/</loc>
-    <lastmod>2021-10-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication/consistent_counterfactuals/</loc>
-    <lastmod>2021-10-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/leave_one_out/</loc>
@@ -71,7 +71,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/featurewise_bias_amplification/</loc>
-    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tag/deep-learning/</loc>

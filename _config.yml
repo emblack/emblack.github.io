@@ -54,7 +54,7 @@ author:
 
   # Social media
   artstation       : # Username
-  # bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -135,7 +135,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : # &twitter
 facebook:
   username               :
   app_id                 :
@@ -310,16 +310,27 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-scholar
 
 # Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
+# whitelist:
+#   - jekyll-feed
+#   - jekyll-gist
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-redirect-from
+#   - jemoji
 
+# point to your BibTeX (you said it’s under `files/`)
+scholar:
+  source: files
+  bibliography: papers.bib
+  style: apa
+  locale: en
+  sort_by: year, month
+  order: descending, descending
+  bibliography_list_tag: div   # wrapper element (not numbered)
+  bibliography_item_tag: p     # each entry inside its own <p> bloc
 
 # Archives
 #  Type

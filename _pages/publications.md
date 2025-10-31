@@ -5,4 +5,4 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% bibliography --file papers --template bib %}
+{% bibliography --file papers %}

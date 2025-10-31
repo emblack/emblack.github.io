@@ -1,0 +1,10 @@
+<p class="bib-item">
+  {{ reference
+    | replace: "Black, E.", "<strong>Black, E.</strong>"
+    | replace: "E. Black", "<strong>E. Black</strong>"
+    | replace: "Black, Emily", "<strong>Black, Emily</strong>"
+    | replace: "Emily Black", "<strong>Emily Black</strong>"
+    | replace: "Black,&nbsp;E.", "<strong>Black,&nbsp;E.</strong>"
+    | replace: "Black, E.", "<strong>Black, E.</strong>"  <!-- thin NBSP (U+202F) -->
+  }}
+</p>

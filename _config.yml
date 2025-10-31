@@ -331,6 +331,8 @@ scholar:
   order: descending, descending
   bibliography_list_tag: div   # wrapper element (not numbered)
   bibliography_item_tag: p     # each entry inside its own <p> bloc
+  replace_strings:
+    "Black, Emily": "<strong>Black, Emily</strong>"
 
 # Archives
 #  Type

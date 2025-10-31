@@ -331,13 +331,13 @@ scholar:
   order: descending, descending
   bibliography_list_tag: div   # wrapper element (not numbered)
   bibliography_item_tag: p     # each entry inside its own <p> bloc
-  replace_strings:
-    "Black, E.": "<strong>Black, E.</strong>"
-    "Black,&nbsp;E.": "<strong>Black,&nbsp;E.</strong>"
-    "Black, E.": "<strong>Black, E.</strong>"      # U+202F thin NBSP
-    "E. Black": "<strong>E. Black</strong>"
-    "Black, Emily": "<strong>Black, Emily</strong>"
-    "Emily Black": "<strong>Emily Black</strong>"
+  # replace_strings:
+  #   "Black, E.": "<strong>Black, E.</strong>"
+  #   "Black,&nbsp;E.": "<strong>Black,&nbsp;E.</strong>"
+  #   "Black, E.": "<strong>Black, E.</strong>"      # U+202F thin NBSP
+  #   "E. Black": "<strong>E. Black</strong>"
+  #   "Black, Emily": "<strong>Black, Emily</strong>"
+  #   "Emily Black": "<strong>Emily Black</strong>"
 
 # Archives
 #  Type

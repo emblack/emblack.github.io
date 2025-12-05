@@ -10,6 +10,9 @@
 main:
   - title: "Publications"
     url: /publications/
+  
+  - title: "Teaching"
+    url: /teaching/
 
   # - title: "Lab"
   #   url: /lab/

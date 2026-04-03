@@ -17,7 +17,7 @@ Emily Black is an Assistant Professor of Computer Science and Engineering at New
   alt="IDEA LAB logo"
   style="width:500px; max-width:95%; height:auto; display:block; margin: 6px auto 10px auto;"
 />
-We are the **IDEA (Impact-Driven Evaluation of AI) Lab** in **NYU Computer Science**, led by Dr. [Emily Black](https://emblack.github.io/). Our research develops methods to measure and mitigate harm AI systems, with a special focus on preventing harm in real-world.
+We are the **IDEA (Impact-Driven Evaluation of AI) Lab** in **NYU Computer Science**, led by Dr. Emily Black. Our research develops methods to measure and mitigate harm AI systems, with a special focus on preventing harm in real-world.
 
 ### Our research
 

@@ -130,7 +130,7 @@ table td a {
   text-align: center !important;
 }
 
-table img.team-headshot {
+.page__content table img[src*="/images/teampics/"] {
   width: 180px !important;
   height: 180px !important;
   object-fit: cover !important;
@@ -139,3 +139,13 @@ table img.team-headshot {
   margin: 0 auto 10px auto !important;
   max-width: none !important;
 }
+
+// table img.team-headshot {
+//   width: 180px !important;
+//   height: 180px !important;
+//   object-fit: cover !important;
+//   object-position: center !important;
+//   display: block !important;
+//   margin: 0 auto 10px auto !important;
+//   max-width: none !important;
+// }

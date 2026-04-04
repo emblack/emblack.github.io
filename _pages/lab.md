@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "Lab"
+title: "IDEA Lab"
 permalink: /lab/
 author_profile: true
 ---
-
-### The IDEA Lab
 
 <img
   src="{{ '/images/IDEALAB.png' | relative_url }}"

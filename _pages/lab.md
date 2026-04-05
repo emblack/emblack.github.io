@@ -19,17 +19,17 @@ Our work spans three connected areas:
 1. **Algorithmic fairness and AI safety**  
    We build tools, methodologies, and frameworks to measure and prevent harms from AI systems that could negatively impact society. This includes developing evaluation paradigms to identify harms, explainability tools to diagnose why harms arise, and methods for training and selecting models that are both accurate and minimize harms. While our techniques are general and can be applied to a wide range of application areas, we are often inspired by issues such as protecting fair access to high-stakes opportunities like jobs, credit, housing, and health in the age of AI; promoting high-quality and diverse LLM output; and understanding and mitigating instability and arbitrariness in AI systems.
 
-    - [Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209)
     - [Multilingual Language Models and Representation Harms](https://arxiv.org/abs/2505.15229)
+    - [Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209)
     - [Towards Effective Discrimination Testing for Generative AI](https://arxiv.org/abs/2412.21052)
-    - [FlipTest: Fairness Testing via Optimal Transport](https://arxiv.org/abs/1906.09218)
     - [Toward Operationalizing Pipeline-aware ML Fairness](https://arxiv.org/abs/2309.17337)
+    - [FlipTest: Fairness Testing via Optimal Transport](https://arxiv.org/abs/1906.09218)
 
 2. **AI and the law / AI governance**  
    Beyond creating methods to find and prevent harm technically, we study how effective incentive structures, or AI governance strategies, to prevent harm in practice. Towards this goal, we study how to interpret the law in the context of AI systems to understand what requirements companies and other institutions using AI systems in high-stakes may be subject to, how companies can comply with those requirements, and to what extent various AI policy and governance strategies have worked in practice.
 
-    - [The Legal Duty to Search for Less Discriminatory Algorithms](https://arxiv.org/pdf/2406.06817)
     - [Algorithmic UDAP](https://arxiv.org/pdf/2512.17007)
+    - [The Legal Duty to Search for Less Discriminatory Algorithms](https://arxiv.org/pdf/2406.06817)
     - [D-Hacking](https://facctconference.org/static/papers24/facct24-43.pdf)
 
 3. **Learning from and auditing AI deployments on the ground**  

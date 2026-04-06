@@ -135,7 +135,7 @@ ol > li > ul {
 #team + table + table,
 #team + table + table + table {
   border-collapse: separate !important;
-  border-spacing: 0px 0 !important;
+  border-spacing: 24px 0 !important;
   width: auto !important;
   margin: 0 auto 2rem auto !important;
   background: transparent !important;
@@ -150,7 +150,7 @@ ol > li > ul {
   width: 180px !important;
   min-width: 180px !important;
   max-width: 180px !important;
-  padding: 0 12px 24px 12px !important;
+  padding: 0 !important;
   border: none !important;
   background: transparent !important;
   text-align: center !important;

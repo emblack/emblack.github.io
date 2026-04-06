@@ -135,7 +135,7 @@ ol > li > ul {
 #team + table + table,
 #team + table + table + table {
   border-collapse: separate !important;
-  border-spacing: 24px 0 !important;
+  border-spacing: 0px 0 !important;
   width: auto !important;
   margin: 0 auto 2rem auto !important;
   background: transparent !important;
@@ -150,7 +150,7 @@ ol > li > ul {
   width: 180px !important;
   min-width: 180px !important;
   max-width: 180px !important;
-  padding: 0 !important;
+  padding: 0 12px 24px 12px !important;
   border: none !important;
   background: transparent !important;
   text-align: center !important;
@@ -190,30 +190,3 @@ ol > li > ul {
   display: block !important;
   text-align: center !important;
 }
-
-// .page__content table img[src*="/images/teampics/"] {
-//   width: 180px !important;
-//   height: 180px !important;
-//   object-fit: cover !important;
-//   object-position: center !important;
-//   display: block !important;
-//   margin: 0 auto 10px auto !important;
-//   max-width: none !important;
-// }
-
-// table img.team-headshot {
-//   width: 180px !important;
-//   height: 180px !important;
-//   object-fit: cover !important;
-//   object-position: center !important;
-//   display: block !important;
-//   margin: 0 auto 10px auto !important;
-//   max-width: none !important;
-// }
-
-// .page__content table,
-// .page__content table td,
-// .page__content table th {
-//   background: transparent !important;
-//   border: none !important;
-// }

@@ -19,6 +19,7 @@ Our work spans three connected areas:
 1. **Algorithmic fairness and AI safety**  
    We build tools, methodologies, and frameworks to measure and prevent harms from AI systems that could negatively impact society. This includes developing evaluation paradigms to identify harms, explainability tools to diagnose why harms arise, and methods for training and selecting models that are both accurate and minimize harms. While our techniques are general and can be applied to a wide range of application areas, we are often inspired by issues such as protecting fair access to high-stakes opportunities like jobs, credit, housing, and health in the age of AI; promoting high-quality and diverse LLM output; and understanding and mitigating instability and arbitrariness in AI systems.
 
+    - [Attribution Bias in Large Language Models](https://arxiv.org/abs/2604.05224)
     - [Multilingual Language Models and Representation Harms](https://arxiv.org/abs/2505.15229)
     - [Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209)
     - [Towards Effective Discrimination Testing for Generative AI](https://arxiv.org/abs/2412.21052)

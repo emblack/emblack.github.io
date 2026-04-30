@@ -36,7 +36,7 @@ Our work spans three connected areas:
 3. **Learning from and auditing AI deployments on the ground**  
    We study how AI systems are actually used in practice and build methods to audit real deployments and their impacts. This work helps us understand what problems and harms are happening in the real world, which helps guide our technical and legal/governance research.
 
-    - Resume-ing Control: (Mis)Perceptions of Agency Around GenAI Use in Recruiting Workflows
+    - [Resume-ing Control: (Mis)Perceptions of Agency Around GenAI Use in Recruiting Workflows](https://arxiv.org/abs/2604.26851)
     - [Measuring Fairness in the U.S. Tax System](https://dl.acm.org/doi/abs/10.1145/3531146.3533204)
 
 ## <a id="team"></a>Team

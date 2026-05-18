@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <img
-  src="{{ '/images/IDEALAB.png' | relative_url }}"
+  src="{{ '/images/logo.png' | relative_url }}"
   alt="IDEA LAB logo"
   style="width:500px; max-width:95%; height:auto; display:block; margin: 6px auto 10px auto;"
 />

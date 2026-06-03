@@ -54,3 +54,14 @@ Our work spans three connected areas:
 | **Gordon Dai** | **Riley Stacy** |  |  |
 | B.A. Student | B.S. Student (Barnard) |  |  |
 {: .team-table }
+
+## <a id="Open Positions"></a>Open Positions
+
+We are hiring a postdoc to develop technical evaluation methods for detecting discrimination and instability in generative AI systems used in hiring and credit decisions. This is a unique opportunity to develop methods with real-world impact, as we anticipate collaborating with industry partners in HR tech and fintech to ground our methods in real workflows. (Dates: September 2026 – August 2027, with potential to extend to two years).
+
+We're looking for:
+* PhD in Computer Science or related field (completed or expected before start).
+* Strong background in generative AI and/or AI evaluation, with publications at venues such as FAccT, NeurIPS, ICML, ICLR, AAAI, ACL or similar.
+* Background or interest in responsible AI / algorithmic fairness.
+
+To apply, please send a CV, brief research statement (1pg), 2–3 representative papers, and names of 2-3 references to eb1850@nyu.edu with "Postdoc Application" in the subject. Applications reviewed on a rolling basis. Please feel free to reach out for more information.

@@ -193,11 +193,12 @@ ol > li > ul {
 
 /* ==========================================================================
    Publication list (data-driven, see _data/publications.yml)
+   Uses theme CSS variables so light and dark modes both render correctly.
    ========================================================================== */
 
 .pub-scholar-link {
   font-size: 0.85em;
-  color: mix(#000, #fff, 55%);
+  color: var(--global-text-color-light);
 }
 
 .pub-area-nav {
@@ -207,13 +208,13 @@ ol > li > ul {
     display: inline-block;
     margin: 0 0.5em 0.5em 0;
     padding: 0.25em 0.9em;
-    border: 1px solid mix(#000, #fff, 25%);
+    border: 1px solid var(--global-border-color);
     border-radius: 2em;
     font-size: 0.8em;
     text-decoration: none;
 
     &:hover {
-      background-color: mix(#000, #fff, 8%);
+      background-color: rgba(128, 128, 128, 0.15);
     }
   }
 }
@@ -221,7 +222,7 @@ ol > li > ul {
 .pub-area-title {
   margin-top: 1.6em;
   padding-bottom: 0.3em;
-  border-bottom: 1px solid mix(#000, #fff, 20%);
+  border-bottom: 1px solid var(--global-border-color);
 }
 
 .pub-entry {
@@ -238,8 +239,6 @@ ol > li > ul {
   .pub-authors {
     font-size: 0.9em;
     margin-top: 0.15em;
-
-    .pub-me { font-weight: 600; }
   }
 
   .pub-venue {
@@ -260,7 +259,7 @@ ol > li > ul {
   .pub-note {
     font-size: 0.8em;
     font-style: italic;
-    color: mix(#000, #fff, 55%);
+    color: var(--global-text-color-light);
     margin-top: 0.1em;
   }
 
@@ -273,14 +272,14 @@ ol > li > ul {
     display: inline-block;
     margin: 0 0.35em 0.25em 0;
     padding: 0.15em 0.7em;
-    border: 1px solid mix(#000, #fff, 30%);
+    border: 1px solid var(--global-border-color);
     border-radius: 3px;
     text-decoration: none;
     cursor: pointer;
     user-select: none;
 
     &:hover {
-      background-color: mix(#000, #fff, 8%);
+      background-color: rgba(128, 128, 128, 0.15);
     }
   }
 
@@ -304,8 +303,9 @@ ol > li > ul {
     p {
       margin: 0.5em 0 0;
       padding: 0.7em 0.9em;
-      border-left: 3px solid mix(#000, #fff, 25%);
-      background-color: mix(#000, #fff, 4%);
+      border-left: 3px solid var(--global-border-color);
+      background-color: rgba(128, 128, 128, 0.12);
+      color: var(--global-text-color);
       font-size: 0.95em;
       line-height: 1.5;
       text-align: left;
@@ -316,7 +316,7 @@ ol > li > ul {
 /* Collapsible research-area sections (lab page) */
 .lab-area {
   margin: 0 0 1em;
-  border: 1px solid mix(#000, #fff, 18%);
+  border: 1px solid var(--global-border-color);
   border-radius: 6px;
 
   > summary {
@@ -340,7 +340,7 @@ ol > li > ul {
 .lab-area-pubs {
   margin-top: 0.9em;
   padding-top: 0.9em;
-  border-top: 1px dashed mix(#000, #fff, 20%);
+  border-top: 1px dashed var(--global-border-color);
 
   .pub-entry { margin-bottom: 1.1em; }
   .pub-entry .pub-title { font-size: 1em; }

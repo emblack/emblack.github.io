@@ -1,0 +1,31 @@
+{% comment %}
+  Renders one publication card. Expects `pub` (an entry from _data/publications.yml).
+{% endcomment %}
+<div class="pub-entry">
+  <div class="pub-title">
+    {% if pub.arxiv or pub.doi or pub.pdf %}
+      {% assign pub_url = pub.arxiv | default: pub.doi | default: pub.pdf %}
+      <a href="{{ pub_url }}">{{ pub.title }}</a>
+    {% else %}
+      {{ pub.title }}
+    {% endif %}
+  </div>
+  <div class="pub-authors">{{ pub.authors }}</div>
+  <div class="pub-venue">
+    <em>{{ pub.venue }}</em>, {{ pub.year }}
+    {% if pub.award %}<span class="pub-award">&#127942; {{ pub.award }}</span>{% endif %}
+  </div>
+  {% if pub.note %}<div class="pub-note">{{ pub.note }}</div>{% endif %}
+  <div class="pub-links">
+    {% if pub.arxiv %}<a class="pub-btn" href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+    {% if pub.pdf %}<a class="pub-btn" href="{{ pub.pdf }}">PDF</a>{% endif %}
+    {% if pub.doi %}<a class="pub-btn" href="{{ pub.doi }}">DOI</a>{% endif %}
+    {% if pub.code %}<a class="pub-btn" href="{{ pub.code }}">Code</a>{% endif %}
+    {% if pub.abstract %}
+    <details class="pub-abs">
+      <summary class="pub-btn pub-btn--abs">Abstract</summary>
+      <p>{{ pub.abstract }}</p>
+    </details>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,161 @@
+# Publication data for Emily Black — generated locally, edit freely.
+# area: fairness | law | deployments   (see _pages/publications.md)
+
+- title: "The Fair Lending Model: How the Longest-Running Algorithmic Fairness Programs Work in Practice"
+  authors: "Emily Black, Miranda Bogen, Logan Koepke, Solon Barocas, Wesley Deng, Mingwei Hsu"
+  venue: "ACM FAccT"
+  year: 2026
+  area: deployments
+  selected: true
+  arxiv: "https://arxiv.org/abs/2606.02957"
+  pdf: "https://arxiv.org/pdf/2606.02957"
+  abstract: "U.S. financial institutions subject to fair lending laws have been running algorithmic fairness programs for decades. Despite this long history, remarkably little is known about how these requirements operate in practice. In this paper, we offer the first empirical account of how financial institutions test for and mitigate algorithmic discrimination on the ground. In doing so, we shed light on how the regulatory design of fair lending law and regulation have shaped the policies, processes, and practices of fair lending programs. Drawing on 35 semi-structured interviews with participants across the fair lending ecosystem, we find that while financial institutions have a floor of fairness practices aimed at preventing discrimination in lending largely absent in other domains, the specifics of how firms test for discrimination and search for less discriminatory algorithms varies widely. We also find that regulatory supervision via fair lending examinations has been the key driver of compliance work, but that the practical impact of fair lending programs often depends on how well they can navigate competing business incentives, perceived legal tensions, and regulatory uncertainty. Ultimately, our findings highlight the unique role that supervisory authority has played in successfully fostering fair lending practices -- a regulatory design feature that is distinct from other areas of civil rights law and almost completely absent from recent policy proposals for dealing with algorithmic discrimination."
+
+- title: "Resume-ing Control: (Mis)Perceptions of Agency Around GenAI Use in Recruiting Workflows"
+  authors: "Sajel Surati, Rosanna Bellini, Emily Black"
+  venue: "ACM FAccT"
+  year: 2026
+  area: deployments
+  arxiv: "https://arxiv.org/abs/2604.26851"
+  pdf: "https://arxiv.org/pdf/2604.26851"
+  abstract: "When generative AI (genAI) systems are used in high-stakes decision-making, its recommended role is to aid, rather than replace, human decision-making. However, there is little empirical exploration of how professionals making high-stakes decisions, such as those related to employment, perceive their agency and level of control when working with genAI systems. Through interviews with 22 recruiting professionals, we investigate how genAI subtly influences control over everyday workflows and even individual hiring decisions. Our findings highlight a pressing conflict: while recruiters believe they have final authority across the recruiting pipeline, genAI has become an invisible architect that shapes the foundational building blocks of information used for evaluation, from defining a job to determining good interview performances. The decision of whether or not to adopt was also often outside recruiters' control, with many feeling compelled to adopt genAI due to calls to integrate AI from higher-ups in their business, to combat applicant use of AI, and the individual need to boost productivity. Despite a seemingly seismic shift in how recruiting happens, participants only reported marginal efficiency gains. Such gains came at the high cost of recruiter deskilling, a trend that jeopardizes the meaningful oversight of decision-making. We conclude by discussing the implications of such findings for responsible and perceptible genAI use in hiring contexts."
+
+- title: "Attribution Bias in Large Language Models"
+  authors: "Eliza Berman, Bella Chang, Daniel B. Neill, Emily Black"
+  venue: "Preprint (arXiv)"
+  year: 2026
+  area: fairness
+  selected: true
+  arxiv: "https://arxiv.org/abs/2604.05224"
+  pdf: "https://arxiv.org/pdf/2604.05224"
+  abstract: "As Large Language Models (LLMs) are increasingly used to support search and information retrieval, it is critical that they accurately attribute content to its original authors. In this work, we introduce AttriBench, the first fame- and demographically-balanced quote attribution benchmark dataset. Through explicitly balancing author fame and demographics, AttriBench enables controlled investigation of demographic bias in quote attribution. Using this dataset, we evaluate 11 widely used LLMs across different prompt settings and find that quote attribution remains a challenging task even for frontier models. We observe large and systematic disparities in attribution accuracy between race, gender, and intersectional groups. We further introduce and investigate suppression, a distinct failure mode in which models omit attribution entirely, even when the model has access to authorship information. We find that suppression is widespread and unevenly distributed across demographic groups, revealing systematic biases not captured by standard accuracy metrics. Our results position quote attribution as a benchmark for representational fairness in LLMs."
+
+- title: "Algorithmic UDAP"
+  authors: "Talia Gillis, Riley Stacy, Sam Brumer, Emily Black"
+  venue: "ACM Symposium on Computer Science and Law"
+  year: 2026
+  area: law
+  arxiv: "https://arxiv.org/abs/2512.17007"
+  pdf: "https://arxiv.org/pdf/2512.17007"
+  abstract: "This paper compares two legal frameworks -- disparate impact (DI) and unfair, deceptive, or abusive acts or practices (UDAP) -- as tools for evaluating algorithmic discrimination, focusing on the example of fair lending. While DI has traditionally served as the foundation of fair lending law, recent regulatory efforts have invoked UDAP, a doctrine rooted in consumer protection, as an alternative means to address algorithmic discrimination harms. We formalize and operationalize both doctrines in a simulated lending setting to assess how they evaluate algorithmic disparities. While some regulatory interpretations treat UDAP as operating similarly to DI, we argue it is an independent and analytically distinct framework. In particular, UDAP's \"unfairness\" prong introduces elements such as avoidability of harm and proportionality balancing, while its \"deceptive\" and \"abusive\" standards may capture forms of algorithmic harm that elude DI analysis. At the same time, translating UDAP into algorithmic settings exposes unresolved ambiguities, underscoring the need for further regulatory guidance if it is to serve as a workable standard."
+
+- title: "Multilingual Prompting for Improving LLM Generation Diversity"
+  authors: "Qihan Wang, Shidong Pan, Tal Linzen, Emily Black"
+  venue: "EMNLP"
+  year: 2025
+  area: fairness
+  arxiv: "https://arxiv.org/abs/2505.15229"
+  pdf: "https://arxiv.org/pdf/2505.15229"
+  abstract: "Large Language Models (LLMs) are known to lack cultural representation and overall diversity in their generations, from expressing opinions to answering factual questions. To mitigate this problem, we propose multilingual prompting: a prompting method which generates several variations of a base prompt with added cultural and linguistic cues from several cultures, generates responses, and then combines the results. Building on evidence that LLMs have language-specific knowledge, multilingual prompting seeks to increase diversity by activating a broader range of cultural knowledge embedded in model training data. Through experiments across multiple models (GPT-4o, GPT-4o-mini, LLaMA 70B, and LLaMA 8B), we show that multilingual prompting consistently outperforms existing diversity-enhancing techniques such as high-temperature sampling, step-by-step recall, and persona prompting. Further analyses show that the benefits of multilingual prompting vary between high and low resource languages and across model sizes, and that aligning the prompting language with cultural cues reduces hallucination about culturally-specific information."
+
+- title: "Be Intentional About Fairness!: Fairness, Size, and Multiplicity in the Rashomon Set"
+  authors: "Gordon Dai, Pavan Ravishankar, Rachel Yuan, Daniel B. Neill, Emily Black"
+  venue: "EAAMO"
+  year: 2025
+  area: fairness
+  award: "Best Paper Honorable Mention"
+  selected: true
+  arxiv: "https://arxiv.org/abs/2501.15634"
+  pdf: "https://arxiv.org/pdf/2501.15634"
+  abstract: "When selecting a model from a set of equally performant models, how much unfairness can you really reduce? Is it important to be intentional about fairness when choosing among this set, or is arbitrarily choosing among the set of ''good'' models good enough? Recent work has highlighted that the phenomenon of model multiplicity-where multiple models with nearly identical predictive accuracy exist for the same task-has both positive and negative implications for fairness, from strengthening the enforcement of civil rights law in AI systems to showcasing arbitrariness in AI decision-making. Despite the enormous implications of model multiplicity, there is little work that explores the properties of sets of equally accurate models, or Rashomon sets, in general. In this paper, we present five main theoretical and methodological contributions which help us to understand the relatively unexplored properties of the Rashomon set, in particular with regards to fairness. Our contributions include methods for efficiently sampling models from this set and techniques for identifying the fairest models according to key fairness metrics such as statistical parity. We also derive the probability that an individual's prediction will be flipped within the Rashomon set, as well as expressions for the set's size and the distribution of error tolerance used across models. These results lead to policy-relevant takeaways, such as the importance of intentionally looking for fair models within the Rashomon set, and understanding which individuals or groups may be more susceptible to arbitrary decisions."
+
+- title: "Towards Effective Discrimination Testing for Generative AI"
+  authors: "Thomas P. Zollo, Nikita Rajaneesh, Richard Zemel, Talia B. Gillis, Emily Black"
+  venue: "ACM FAccT"
+  year: 2025
+  area: law
+  selected: true
+  arxiv: "https://arxiv.org/abs/2412.21052"
+  pdf: "https://arxiv.org/pdf/2412.21052"
+  abstract: "Generative AI (GenAI) models present new challenges in regulating against discriminatory behavior. In this paper, we argue that GenAI fairness research still has not met these challenges; instead, a significant gap remains between existing bias assessment methods and regulatory goals. This leads to ineffective regulation that can allow deployment of reportedly fair, yet actually discriminatory, GenAI systems. Towards remedying this problem, we connect the legal and technical literature around GenAI bias evaluation and identify areas of misalignment. Through four case studies, we demonstrate how this misalignment between fairness testing techniques and regulatory goals can result in discriminatory outcomes in real-world deployments, especially in adaptive or complex environments. We offer practical recommendations for improving discrimination testing to better align with regulatory goals and enhance the reliability of fairness assessments in future deployments."
+
+- title: "Generative Monoculture in Large Language Models"
+  authors: "Fan Wu, Emily Black, Varun Chandrasekaran"
+  venue: "ICLR"
+  year: 2025
+  area: fairness
+  selected: true
+  arxiv: "https://arxiv.org/abs/2407.02209"
+  pdf: "https://arxiv.org/pdf/2407.02209"
+  abstract: "We introduce {\\em generative monoculture}, a behavior observed in large language models (LLMs) characterized by a significant narrowing of model output diversity relative to available training data for a given task: for example, generating only positive book reviews for books with a mixed reception. While in some cases, generative monoculture enhances performance (e.g., LLMs more often produce efficient code), the dangers are exacerbated in others (e.g., LLMs refuse to share diverse opinions). As LLMs are increasingly used in high-impact settings such as education and web search, careful maintenance of LLM output diversity is essential to ensure a variety of facts and perspectives are preserved over time. We experimentally demonstrate the prevalence of generative monoculture through analysis of book review and code generation tasks, and find that simple countermeasures such as altering sampling or prompting strategies are insufficient to mitigate the behavior. Moreover, our results suggest that the root causes of generative monoculture are likely embedded within the LLM's alignment processes, suggesting a need for developing fine-tuning paradigms that preserve or promote diversity."
+
+- title: "Less Discriminatory Algorithms"
+  authors: "Emily Black, John Logan Koepke, Pauline T. Kim, Solon Barocas, Mingwei Hsu"
+  venue: "Georgetown Law Journal, Vol. 113"
+  year: 2024
+  area: law
+  selected: true
+  arxiv: "https://arxiv.org/abs/2406.06817"
+  pdf: "https://arxiv.org/pdf/2406.06817"
+  abstract: "Work in computer science has established that, contrary to conventional wisdom, for a given prediction problem there are almost always multiple possible models with equivalent performance--a phenomenon often termed model multiplicity. Critically, different models of equivalent performance can produce different predictions for the same individual, and, in aggregate, exhibit different levels of impacts across demographic groups. Thus, when an algorithmic system displays a disparate impact, model multiplicity suggests that developers could discover an alternative model that performs equally well, but has less discriminatory impact. Indeed, the promise of model multiplicity is that an equally accurate, but less discriminatory algorithm (LDA) almost always exists. But without dedicated exploration, it is unlikely developers will discover potential LDAs. Model multiplicity and the availability of LDAs have significant ramifications for the legal response to discriminatory algorithms, in particular for disparate impact doctrine, which has long taken into account the availability of alternatives with less disparate effect when assessing liability. A close reading of legal authorities over the decades reveals that the law has on numerous occasions recognized that the existence of a less discriminatory alternative is sometimes relevant to a defendant's burden of justification at the second step of disparate impact analysis. Indeed, under disparate impact doctrine, it makes little sense to say that a given algorithmic system used by an employer, creditor, or housing provider is \"necessary\" if an equally accurate model that exhibits less disparate effect is available and possible to discover with reasonable effort. As a result, we argue that the law should place a duty of a reasonable search for LDAs on entities that develop and deploy predictive models in covered civil rights domains."
+
+- title: "D-hacking"
+  authors: "Emily Black, Talia Gillis, Zara Yasmine Hall"
+  venue: "ACM FAccT"
+  year: 2024
+  area: law
+  pdf: "https://facctconference.org/static/papers24/facct24-43.pdf"
+  abstract: "Recent regulatory efforts, including Executive Order 14110 and the AI Bill of Rights, have focused on mitigating discrimination in AI systems through novel and traditional application of anti-discrimination laws. While these initiatives rightly emphasize fairness testing and mitigation, we argue that they pay insufficient attention to robust bias measurement and mitigation—and that without doing so, the frameworks cannot effectively achieve the goal of reducing discrimination in deployed AI models. This oversight is particularly concerning given the instability and brittleness of current algorithmic bias mitigation and fairness optimization methods, as highlighted by growing evidence in the algorithmic fairness literature. This instability heightens the risk of what we term discrimination-hacking or d-hacking, a scenario where, inadvertently or deliberately, the selection of models based on favorable fairness metrics within specific samples could lead to misleading or non-generalizable fairness performance. We term this effect d-hacking because systematically selecting among numerous models to find the least discriminatory one parallels the concept of p-hacking in social science research of selectively reporting outcomes that appear statistically significant resulting in misleading conclusions. In light of these challenges, we argue that AI fairness regulation should not only call for fairness measurement and bias mitigation, but also specify methods to ensure robust solutions to discrimination in AI systems. Towards the goal of arguing for robust fairness assessment and bias mitigation in AI regulation, this paper (1) synthesizes evidence of d-hacking in the computer science literature and provides experimental demonstrations of d-hacking, (2) analyzes current legal frameworks to understand the treatment of robust fairness and non-discriminatory behavior, both in recent AI regulation proposals and traditional U.S. discrimination law, and (3) outlines policy recommendations for preventing d-hacking in high-stakes domains."
+
+- title: "Toward Operationalizing Pipeline-aware ML Fairness: A Research Agenda for Developing Practical Guidelines and Tools"
+  authors: "Emily Black, Rakshit Naidu, Rayid Ghani, Kit T. Rodolfa, Daniel E. Ho, Hoda Heidari"
+  venue: "EAAMO"
+  year: 2023
+  area: fairness
+  arxiv: "https://arxiv.org/abs/2309.17337"
+  pdf: "https://arxiv.org/pdf/2309.17337"
+  abstract: "While algorithmic fairness is a thriving area of research, in practice, mitigating issues of bias often gets reduced to enforcing an arbitrarily chosen fairness metric, either by enforcing fairness constraints during the optimization step, post-processing model outputs, or by manipulating the training data. Recent work has called on the ML community to take a more holistic approach to tackle fairness issues by systematically investigating the many design choices made through the ML pipeline, and identifying interventions that target the issue's root cause, as opposed to its symptoms. While we share the conviction that this pipeline-based approach is the most appropriate for combating algorithmic unfairness on the ground, we believe there are currently very few methods of \\emph{operationalizing} this approach in practice. Drawing on our experience as educators and practitioners, we first demonstrate that without clear guidelines and toolkits, even individuals with specialized ML knowledge find it challenging to hypothesize how various design choices influence model behavior. We then consult the fair-ML literature to understand the progress to date toward operationalizing the pipeline-aware approach: we systematically collect and organize the prior work that attempts to detect, measure, and mitigate various sources of unfairness through the ML pipeline. We utilize this extensive categorization of previous contributions to sketch a research agenda for the community. We hope this work serves as the stepping stone toward a more comprehensive set of resources for ML researchers, practitioners, and students interested in exploring, designing, and testing pipeline-oriented approaches to algorithmic fairness."
+
+- title: "Model Multiplicity: Opportunities, Concerns, and Solutions"
+  authors: "Emily Black, Manish Raghavan, Solon Barocas"
+  venue: "ACM FAccT"
+  year: 2022
+  area: fairness
+  selected: true
+  doi: "https://dl.acm.org/doi/10.1145/3531146.3533149"
+  abstract: "Recent scholarship has brought attention to the fact that there often exist multiple models for a given prediction task with equal accuracy that differ in their individual-level predictions or aggregate properties. This phenomenon—which we call model multiplicity—can introduce a good deal of flexibility into the model selection process, creating a range of exciting opportunities. By demonstrating that there are many different ways of making equally accurate predictions, multiplicity gives model developers the freedom to prioritize other values in their model selection process without having to abandon their commitment to maximizing accuracy. However, multiplicity also brings to light a concerning truth: model selection on the basis of accuracy alone—the default procedure in many deployment scenarios—fails to consider what might be meaningful differences between equally accurate models with respect to other criteria such as fairness, robustness, and interpretability. Unless these criteria are taken into account explicitly, developers might end up making unnecessary trade-offs or could even mask intentional discrimination. Furthermore, the prospect that there might exist another model of equal accuracy that flips a prediction for a particular individual may lead to a crisis in justifiability: why should an individual be subject to an adverse model outcome if there exists an equally accurate model that treats them more favorably? In this work, we investigate how to take advantage of the flexibility afforded by model multiplicity while addressing the concerns with justifiability that it might raise?"
+
+- title: "Algorithmic Fairness and Vertical Equity: Income Fairness with IRS Tax Audit Models"
+  authors: "Emily Black, Hadi Elzayn, Alexandra Chouldechova, Jacob Goldin, Daniel E. Ho"
+  venue: "ACM FAccT"
+  year: 2022
+  area: deployments
+  arxiv: "https://arxiv.org/abs/2206.09875"
+  pdf: "https://arxiv.org/pdf/2206.09875"
+  abstract: "This study examines issues of algorithmic fairness in the context of systems that inform tax audit selection by the United States Internal Revenue Service (IRS). While the field of algorithmic fairness has developed primarily around notions of treating like individuals alike, we instead explore the concept of vertical equity -- appropriately accounting for relevant differences across individuals -- which is a central component of fairness in many public policy settings. Applied to the design of the U.S. individual income tax system, vertical equity relates to the fair allocation of tax and enforcement burdens across taxpayers of different income levels. Through a unique collaboration with the Treasury Department and IRS, we use access to anonymized individual taxpayer microdata, risk-selected audits, and random audits from 2010-14 to study vertical equity in tax administration. In particular, we assess how the use of modern machine learning methods for selecting audits may affect vertical equity. First, we show how the use of more flexible machine learning (classification) methods -- as opposed to simpler models -- shifts audit burdens from high to middle-income taxpayers. Second, we show that while existing algorithmic fairness techniques can mitigate some disparities across income, they can incur a steep cost to performance. Third, we show that the choice of whether to treat risk of underreporting as a classification or regression problem is highly consequential. Moving from classification to regression models to predict underreporting shifts audit burden substantially toward high income individuals, while increasing revenue. Last, we explore the role of differential audit cost in shaping the audit distribution. We show that a narrow focus on return-on-investment can undermine vertical equity. Our results have implications for the design of algorithmic tools across the public sector."
+
+- title: "Selective Ensembles for Consistent Predictions"
+  authors: "Emily Black, Klas Leino, Matt Fredrikson"
+  venue: "ICLR"
+  year: 2022
+  area: fairness
+  arxiv: "https://arxiv.org/abs/2111.08230"
+  pdf: "https://arxiv.org/pdf/2111.08230"
+  abstract: "Recent work has shown that models trained to the same objective, and which achieve similar measures of accuracy on consistent test data, may nonetheless behave very differently on individual predictions. This inconsistency is undesirable in high-stakes contexts, such as medical diagnosis and finance. We show that this inconsistent behavior extends beyond predictions to feature attributions, which may likewise have negative implications for the intelligibility of a model, and one's ability to find recourse for subjects. We then introduce selective ensembles to mitigate such inconsistencies by applying hypothesis testing to the predictions of a set of models trained using randomly-selected starting conditions; importantly, selective ensembles can abstain in cases where a consistent outcome cannot be achieved up to a specified confidence level. We prove that that prediction disagreement between selective ensembles is bounded, and empirically demonstrate that selective ensembles achieve consistent predictions and feature attributions while maintaining low abstention rates. On several benchmark datasets, selective ensembles reach zero inconsistently predicted points, with abstention rates as low 1.5%."
+
+- title: "Consistent Counterfactuals for Deep Models"
+  authors: "Emily Black, Zifan Wang, Matt Fredrikson, Anupam Datta"
+  venue: "ICLR"
+  year: 2022
+  area: fairness
+  arxiv: "https://arxiv.org/abs/2110.03109"
+  pdf: "https://arxiv.org/pdf/2110.03109"
+  abstract: "Counterfactual examples are one of the most commonly-cited methods for explaining the predictions of machine learning models in key areas such as finance and medical diagnosis. Counterfactuals are often discussed under the assumption that the model on which they will be used is static, but in deployment models may be periodically retrained or fine-tuned. This paper studies the consistency of model prediction on counterfactual examples in deep networks under small changes to initial training conditions, such as weight initialization and leave-one-out variations in data, as often occurs during model deployment. We demonstrate experimentally that counterfactual examples for deep models are often inconsistent across such small changes, and that increasing the cost of the counterfactual, a stability-enhancing mitigation suggested by prior work in the context of simpler models, is not a reliable heuristic in deep networks. Rather, our analysis shows that a model's local Lipschitz continuity around the counterfactual is key to its consistency across related models. To this end, we propose Stable Neighbor Search as a way to generate more consistent counterfactual explanations, and illustrate the effectiveness of this approach on several benchmark datasets."
+
+- title: "Leave-one-out Unfairness"
+  authors: "Emily Black, Matt Fredrikson"
+  venue: "ACM FAccT"
+  year: 2021
+  area: fairness
+  arxiv: "https://arxiv.org/abs/2107.10171"
+  pdf: "https://arxiv.org/pdf/2107.10171"
+  abstract: "We introduce leave-one-out unfairness, which characterizes how likely a model's prediction for an individual will change due to the inclusion or removal of a single other person in the model's training data. Leave-one-out unfairness appeals to the idea that fair decisions are not arbitrary: they should not be based on the chance event of any one person's inclusion in the training data. Leave-one-out unfairness is closely related to algorithmic stability, but it focuses on the consistency of an individual point's prediction outcome over unit changes to the training data, rather than the error of the model in aggregate. Beyond formalizing leave-one-out unfairness, we characterize the extent to which deep models behave leave-one-out unfairly on real data, including in cases where the generalization error is small. Further, we demonstrate that adversarial training and randomized smoothing techniques have opposite effects on leave-one-out fairness, which sheds light on the relationships between robustness, memorization, individual fairness, and leave-one-out fairness in deep models. Finally, we discuss salient practical applications that may be negatively affected by leave-one-out unfairness."
+
+- title: "FlipTest: Fairness Testing via Optimal Transport"
+  authors: "Emily Black, Samuel Yeom, Matt Fredrikson"
+  venue: "ACM FAT*"
+  year: 2020
+  area: fairness
+  arxiv: "https://arxiv.org/abs/1906.09218"
+  pdf: "https://arxiv.org/pdf/1906.09218"
+  abstract: "We present FlipTest, a black-box technique for uncovering discrimination in classifiers. FlipTest is motivated by the intuitive question: had an individual been of a different protected status, would the model have treated them differently? Rather than relying on causal information to answer this question, FlipTest leverages optimal transport to match individuals in different protected groups, creating similar pairs of in-distribution samples. We show how to use these instances to detect discrimination by constructing a \"flipset\": the set of individuals whose classifier output changes post-translation, which corresponds to the set of people who may be harmed because of their group membership. To shed light on why the model treats a given subgroup differently, FlipTest produces a \"transparency report\": a ranking of features that are most associated with the model's behavior on the flipset. Evaluating the approach on three case studies, we show that this provides a computationally inexpensive way to identify subgroups that may be harmed by model discrimination, including in cases where the model satisfies group fairness criteria."

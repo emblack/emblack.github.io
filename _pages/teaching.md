@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## DS-GA 3001: (Gen)AI Accountability on the Ground: Harms, Law, and Practice
+## CS-GY 9223 — Responsible AI and the Law (Fall 2026)
 
 ### Description
 

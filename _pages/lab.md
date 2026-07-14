@@ -12,32 +12,57 @@ author_profile: true
 />
 We are the **IDEA (Impact-Driven Evaluation for AI) Lab** in **NYU Computer Science**, led by Dr. Emily Black. Our research develops methods to measure and mitigate harm AI systems, with a special focus on preventing harm in real-world.
 
-### Our research
+<div class="pub-area-nav">
+  <a href="#research">Research</a>
+  <a href="#team">Team</a>
+  <a href="#open-positions">Open Positions</a>
+</div>
+
+### <a id="research"></a>Our research
 
 Our work spans three connected areas:
 
-1. **Algorithmic fairness and AI safety**  
-   We build tools, methodologies, and frameworks to measure and prevent harms from AI systems that could negatively impact society. This includes developing evaluation paradigms to identify harms, explainability tools to diagnose why harms arise, and methods for training and selecting models that are both accurate and minimize harms. While our techniques are general and can be applied to a wide range of application areas, we are often inspired by issues such as protecting fair access to high-stakes opportunities like jobs, credit, housing, and health in the age of AI; promoting high-quality and diverse LLM output; and understanding and mitigating instability and arbitrariness in AI systems.
+<details class="lab-area" markdown="1">
+<summary>Algorithmic fairness and AI safety</summary>
+<div class="lab-area-body" markdown="1">
+We build tools, methodologies, and frameworks to measure and prevent harms from AI systems that could negatively impact society. This includes developing evaluation paradigms to identify harms, explainability tools to diagnose why harms arise, and methods for training and selecting models that are both accurate and minimize harms. While our techniques are general and can be applied to a wide range of application areas, we are often inspired by issues such as protecting fair access to high-stakes opportunities like jobs, credit, housing, and health in the age of AI; promoting high-quality and diverse LLM output; and understanding and mitigating instability and arbitrariness in AI systems.
 
-    - [Attribution Bias in Large Language Models](https://arxiv.org/abs/2604.05224)
-    - [Multilingual Language Models and Representation Harms](https://arxiv.org/abs/2505.15229)
-    - [Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209)
-    - [Towards Effective Discrimination Testing for Generative AI](https://arxiv.org/abs/2412.21052)
-    - [Toward Operationalizing Pipeline-aware ML Fairness](https://arxiv.org/abs/2309.17337)
-    - [FlipTest: Fairness Testing via Optimal Transport](https://arxiv.org/abs/1906.09218)
+<div class="lab-area-pubs">
+{% assign area_pubs = site.data.publications | where: "area", "fairness" | sort: "year" | reverse %}
+{% for pub in area_pubs %}
+  {% include publication-entry.html %}
+{% endfor %}
+</div>
+</div>
+</details>
 
-2. **AI and the law / AI governance**  
-   Beyond creating methods to find and prevent harm technically, we study how effective incentive structures, or AI governance strategies, to prevent harm in practice. Towards this goal, we study how to interpret the law in the context of AI systems to understand what requirements companies and other institutions using AI systems in high-stakes may be subject to, how companies can comply with those requirements, and to what extent various AI policy and governance strategies have worked in practice.
+<details class="lab-area" markdown="1">
+<summary>AI and the law / AI governance</summary>
+<div class="lab-area-body" markdown="1">
+Beyond creating methods to find and prevent harm technically, we study how effective incentive structures, or AI governance strategies, to prevent harm in practice. Towards this goal, we study how to interpret the law in the context of AI systems to understand what requirements companies and other institutions using AI systems in high-stakes may be subject to, how companies can comply with those requirements, and to what extent various AI policy and governance strategies have worked in practice.
 
-    - [Algorithmic UDAP](https://arxiv.org/pdf/2512.17007)
-    - [The Legal Duty to Search for Less Discriminatory Algorithms](https://arxiv.org/pdf/2406.06817)
-    - [D-Hacking](https://facctconference.org/static/papers24/facct24-43.pdf)
+<div class="lab-area-pubs">
+{% assign area_pubs = site.data.publications | where: "area", "law" | sort: "year" | reverse %}
+{% for pub in area_pubs %}
+  {% include publication-entry.html %}
+{% endfor %}
+</div>
+</div>
+</details>
 
-3. **Learning from and auditing AI deployments on the ground**  
-   We study how AI systems are actually used in practice and build methods to audit real deployments and their impacts. This work helps us understand what problems and harms are happening in the real world, which helps guide our technical and legal/governance research.
+<details class="lab-area" markdown="1">
+<summary>Learning from and auditing AI deployments on the ground</summary>
+<div class="lab-area-body" markdown="1">
+We study how AI systems are actually used in practice and build methods to audit real deployments and their impacts. This work helps us understand what problems and harms are happening in the real world, which helps guide our technical and legal/governance research.
 
-    - [Resume-ing Control: (Mis)Perceptions of Agency Around GenAI Use in Recruiting Workflows](https://arxiv.org/abs/2604.26851)
-    - [Measuring Fairness in the U.S. Tax System](https://dl.acm.org/doi/abs/10.1145/3531146.3533204)
+<div class="lab-area-pubs">
+{% assign area_pubs = site.data.publications | where: "area", "deployments" | sort: "year" | reverse %}
+{% for pub in area_pubs %}
+  {% include publication-entry.html %}
+{% endfor %}
+</div>
+</div>
+</details>
 
 ## <a id="team"></a>Team
 
@@ -55,7 +80,7 @@ Our work spans three connected areas:
 | B.A. Student | B.S. Student (Barnard) |  |  |
 {: .team-table }
 
-## <a id="Open Positions"></a>Open Positions
+## <a id="open-positions"></a>Open Positions
 
 We are hiring a postdoc to develop technical evaluation methods for detecting discrimination and instability in generative AI systems used in hiring and credit decisions. This is a unique opportunity to develop methods with real-world impact, as we anticipate collaborating with industry partners in HR tech and fintech to ground our methods in real workflows. (Dates: September 2026 – August 2027, with potential to extend to two years).
 

@@ -190,3 +190,158 @@ ol > li > ul {
   display: block !important;
   text-align: center !important;
 }
+
+/* ==========================================================================
+   Publication list (data-driven, see _data/publications.yml)
+   ========================================================================== */
+
+.pub-scholar-link {
+  font-size: 0.85em;
+  color: mix(#000, #fff, 55%);
+}
+
+.pub-area-nav {
+  margin: 0.5em 0 1.5em;
+
+  a {
+    display: inline-block;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0.25em 0.9em;
+    border: 1px solid mix(#000, #fff, 25%);
+    border-radius: 2em;
+    font-size: 0.8em;
+    text-decoration: none;
+
+    &:hover {
+      background-color: mix(#000, #fff, 8%);
+    }
+  }
+}
+
+.pub-area-title {
+  margin-top: 1.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid mix(#000, #fff, 20%);
+}
+
+.pub-entry {
+  margin: 0 0 1.6em;
+
+  .pub-title {
+    font-size: 1.05em;
+    font-weight: bold;
+    line-height: 1.35;
+
+    a { text-decoration: none; }
+  }
+
+  .pub-authors {
+    font-size: 0.9em;
+    margin-top: 0.15em;
+
+    .pub-me { font-weight: 600; }
+  }
+
+  .pub-venue {
+    font-size: 0.9em;
+    margin-top: 0.1em;
+  }
+
+  .pub-award {
+    margin-left: 0.5em;
+    padding: 0.1em 0.6em;
+    border-radius: 2em;
+    background-color: #fdf3d7;
+    color: #7a5d00;
+    font-size: 0.85em;
+    font-weight: 600;
+  }
+
+  .pub-note {
+    font-size: 0.8em;
+    font-style: italic;
+    color: mix(#000, #fff, 55%);
+    margin-top: 0.1em;
+  }
+
+  .pub-links {
+    margin-top: 0.35em;
+    font-size: 0.8em;
+  }
+
+  .pub-btn {
+    display: inline-block;
+    margin: 0 0.35em 0.25em 0;
+    padding: 0.15em 0.7em;
+    border: 1px solid mix(#000, #fff, 30%);
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      background-color: mix(#000, #fff, 8%);
+    }
+  }
+
+  .pub-abs {
+    display: inline-block;
+    vertical-align: top;
+
+    &[open] {
+      display: block;
+    }
+
+    summary {
+      list-style: none;
+
+      &::-webkit-details-marker { display: none; }
+      &::after { content: " \25BE"; }
+    }
+
+    &[open] summary::after { content: " \25B4"; }
+
+    p {
+      margin: 0.5em 0 0;
+      padding: 0.7em 0.9em;
+      border-left: 3px solid mix(#000, #fff, 25%);
+      background-color: mix(#000, #fff, 4%);
+      font-size: 0.95em;
+      line-height: 1.5;
+      text-align: left;
+    }
+  }
+}
+
+/* Collapsible research-area sections (lab page) */
+.lab-area {
+  margin: 0 0 1em;
+  border: 1px solid mix(#000, #fff, 18%);
+  border-radius: 6px;
+
+  > summary {
+    padding: 0.6em 0.9em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    list-style: none;
+
+    &::-webkit-details-marker { display: none; }
+    &::before { content: "\25B8  "; }
+  }
+
+  &[open] > summary::before { content: "\25BE  "; }
+
+  .lab-area-body {
+    padding: 0 1.1em 0.8em;
+  }
+}
+
+.lab-area-pubs {
+  margin-top: 0.9em;
+  padding-top: 0.9em;
+  border-top: 1px dashed mix(#000, #fff, 20%);
+
+  .pub-entry { margin-bottom: 1.1em; }
+  .pub-entry .pub-title { font-size: 1em; }
+}

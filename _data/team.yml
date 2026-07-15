@@ -1,0 +1,50 @@
+# Lab roster, rendered by the team grid on _pages/lab.md.
+# Order here is display order. `url` is optional.
+# Photos live in /images/teampics/.
+
+- name: Emily Black
+  role: Principal Investigator
+  photo: emily.jpg
+  url: https://emblack.github.io/
+
+- name: Falaah Arif Khan
+  role: PhD Student
+  photo: falaah.jpg
+  url: https://falaaharifkhan.github.io/research/
+
+- name: Eliza Berman
+  role: PhD Student
+  photo: eliza.jpg
+  url: https://elizaberman.github.io/
+
+- name: Sajel Surati
+  role: PhD Student
+  photo: sajel.png
+  url: https://sajelsurati.com/
+
+- name: Qihan Wang
+  role: M.S. Student
+  photo: qihan.jpg
+
+- name: Bella Chang
+  role: M.S. Student
+  photo: bella.jpeg
+
+- name: Hoon Cho
+  role: M.S. Student
+  photo: hoon.jpg
+
+- name: Chuhan Ku
+  role: M.S. Student
+  photo: chuhan.jpg
+
+- name: Gordon Dai
+  role: B.A. Student
+  photo: gordon.jpg
+
+- name: Riley Stacy
+  role: B.S. Student (Barnard)
+  photo: riley.jpg
+
+# Alumni: when someone graduates, move their entry into a second file
+# (_data/team_alumni.yml) or add `alumni: true` and a grouped loop.

@@ -10,7 +10,7 @@ author_profile: true
   alt="IDEA LAB logo"
   style="width:500px; max-width:95%; height:auto; display:block; margin: 6px auto 10px auto;"
 />
-We are the **IDEA (Impact-Driven Evaluation for AI) Lab** in **NYU Computer Science**, led by Dr. Emily Black. Our research develops methods to measure and mitigate harm AI systems, with a special focus on preventing harm in real-world.
+We are the **IDEA (Impact-Driven Evaluation for AI) Lab** in **NYU Computer Science**, led by Dr. Emily Black. Our research develops methods to measure and mitigate harm from AI systems, with a special focus on preventing harm in the real world.
 
 <div class="pub-area-nav">
   <a href="#research">Research</a>
@@ -66,19 +66,16 @@ We study how AI systems are actually used in practice and build methods to audit
 
 ## <a id="team"></a>Team
 
-
-| ![Emily Black]({{ '/images/teampics/emily.jpg' | relative_url }}){: .team-headshot } | ![Falaah Arif Khan]({{ '/images/teampics/falaah.jpg' | relative_url }}){: .team-headshot } | ![Eliza Berman]({{ '/images/teampics/eliza.jpg' | relative_url }}){: .team-headshot } | ![Sajel Surati]({{ '/images/teampics/sajel.png' | relative_url }}){: .team-headshot } |
-| **[Emily Black](https://emblack.github.io/)** | **[Falaah Arif Khan](https://falaaharifkhan.github.io/research/)** | **[Eliza Berman](https://elizaberman.github.io/)** | **[Sajel Surati](https://sajelsurati.com/)** |
-| Principal Investigator | PhD Student | PhD Student | PhD Student |
-
-| ![Qihan Wang]({{ '/images/teampics/qihan.jpg' | relative_url }}){: .team-headshot } | ![Bella Chang]({{ '/images/teampics/bella.jpeg' | relative_url }}){: .team-headshot } | ![Hoon Cho]({{ '/images/teampics/hoon.jpg' | relative_url }}){: .team-headshot } | ![Chuhan Ku]({{ '/images/teampics/chuhan.jpg' | relative_url }}){: .team-headshot } |
-| **Qihan Wang** | **Bella Chang** | **Hoon Cho** | **Chuhan Ku** |
-| M.S. Student | M.S. Student | M.S. Student | M.S. Student |
-
-| ![Gordon Dai]({{ '/images/teampics/gordon.jpg' | relative_url }}){: .team-headshot } | ![Riley Stacy]({{ '/images/teampics/riley.jpg' | relative_url }}){: .team-headshot } |  |  |
-| **Gordon Dai** | **Riley Stacy** |  |  |
-| B.A. Student | B.S. Student (Barnard) |  |  |
-{: .team-table }
+<div class="team-grid">
+{% for member in site.data.team %}
+  <div class="team-member">
+    {% capture photo_url %}{{ '/images/teampics/' | append: member.photo | relative_url }}{% endcapture %}
+    {% if member.url %}<a href="{{ member.url }}"><img src="{{ photo_url }}" alt="{{ member.name }}" /></a>{% else %}<img src="{{ photo_url }}" alt="{{ member.name }}" />{% endif %}
+    <div class="team-name">{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</div>
+    <div class="team-role">{{ member.role }}</div>
+  </div>
+{% endfor %}
+</div>
 
 ## <a id="open-positions"></a>Open Positions
 

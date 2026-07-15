@@ -106,89 +106,40 @@ ol > li > ul {
     margin-right: 30px;
 }
 
-// table {
-//   border-collapse: separate !important;
-//   border-spacing: 36px 0 !important;
-//   width: auto !important;
-//   margin: 0 0 2rem 0 !important;
-// }
-
-// table td,
-// table th {
-//   width: 180px !important;
-//   min-width: 180px !important;
-//   max-width: 180px !important;
-//   border: none !important;
-//   text-align: center !important;
-//   vertical-align: top !important;
-//   padding: 0 !important;
-// }
-
-// table td strong,
-// table td a {
-//   display: block !important;
-//   text-align: center !important;
-// }
-
-/* Team table only */
-#team + table,
-#team + table + table,
-#team + table + table + table {
-  border-collapse: separate !important;
-  border-spacing: 24px 0 !important;
-  width: auto !important;
-  margin: 0 auto 2rem auto !important;
-  background: transparent !important;
+/* Team grid (data-driven, see _data/team.yml) */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.5rem 1.25rem;
+  margin: 0 0 2rem;
 }
 
-#team + table td,
-#team + table th,
-#team + table + table td,
-#team + table + table th,
-#team + table + table + table td,
-#team + table + table + table th {
-  width: 180px !important;
-  min-width: 180px !important;
-  max-width: 180px !important;
-  padding: 0 !important;
-  border: none !important;
-  background: transparent !important;
-  text-align: center !important;
-  vertical-align: top !important;
-}
+.team-member {
+  text-align: center;
 
-#team + table p,
-#team + table + table p,
-#team + table + table + table p {
-  margin: 0 !important;
-}
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 0 0.6em;
+    border-radius: 6px;
+  }
 
-#team + table img,
-#team + table + table img,
-#team + table + table + table img {
-  display: block !important;
-  width: 180px !important;
-  min-width: 180px !important;
-  max-width: 180px !important;
-  height: 180px !important;
-  min-height: 180px !important;
-  max-height: 180px !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  margin: 0 auto 10px auto !important;
-  border: none !important;
-  border-radius: 0 !important;
-  max-width: none !important;
-}
+  .team-name {
+    font-weight: bold;
+    line-height: 1.3;
 
-#team + table a,
-#team + table + table a,
-#team + table + table + table a,
-#team + table strong,
-#team + table + table strong,
-#team + table + table + table strong {
-  display: block !important;
-  text-align: center !important;
+    a { text-decoration: none; }
+  }
+
+  .team-role {
+    font-size: 0.85em;
+    color: var(--global-text-color);
+    opacity: 0.7;
+    margin-top: 0.15em;
+  }
 }
 
 /* ==========================================================================

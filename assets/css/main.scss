@@ -142,6 +142,33 @@ ol > li > ul {
   }
 }
 
+/* Alumni are listed by name only -- no photos. */
+.alumni-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+
+  li {
+    padding: 0.35em 0;
+  }
+
+  .alumni-name {
+    font-weight: bold;
+
+    a { text-decoration: none; }
+  }
+
+  .alumni-role {
+    font-size: 0.85em;
+    color: var(--global-text-color);
+    opacity: 0.7;
+
+    &::before {
+      content: "\2014\00a0";
+    }
+  }
+}
+
 /* ==========================================================================
    Publication list (data-driven, see _data/publications.yml)
    Uses theme CSS variables so light and dark modes both render correctly.
@@ -178,6 +205,49 @@ ol > li > ul {
 
 .pub-entry {
   margin: 0 0 1.6em;
+
+  &.pub-entry--with-image {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.1em;
+
+    @media (max-width: #{$small}) {
+      display: block;
+    }
+  }
+
+  .pub-body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .pub-thumb {
+    flex: 0 0 auto;
+    width: 150px;
+
+    @media (max-width: #{$small}) {
+      width: 100%;
+      max-width: 220px;
+      margin-bottom: 0.5em;
+    }
+
+    a {
+      display: block;
+      cursor: zoom-in;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-height: 120px;
+      margin: 0;                 /* override the global img margins */
+      object-fit: contain;
+      padding: 0.3em;
+      border: 1px solid var(--global-border-color);
+      border-radius: 4px;
+      background-color: #fff;
+    }
+  }
 
   .pub-title {
     font-size: 1.05em;
@@ -264,6 +334,62 @@ ol > li > ul {
   }
 }
 
+/* Click-to-enlarge overlay for publication figures */
+.pub-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vh 3vw;
+  background-color: rgba(0, 0, 0, 0.82);
+  cursor: zoom-out;
+
+  &[hidden] { display: none; }
+
+  figure {
+    margin: 0;
+    max-width: 100%;
+    max-height: 94vh;
+    cursor: default;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 84vh;
+    margin: 0;
+    padding: 0.6em;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  figcaption {
+    max-width: 60em;
+    margin: 0.7em auto 0;
+    color: #f2f2f2;
+    font-size: 0.85em;
+    line-height: 1.4;
+    text-align: center;
+  }
+}
+
+.pub-lightbox-close {
+  position: absolute;
+  top: 0.4em;
+  right: 0.6em;
+  padding: 0 0.25em;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-size: 2.2em;
+  line-height: 1;
+  cursor: pointer;
+}
+
+body.pub-lightbox-open { overflow: hidden; }
+
 /* Collapsible research-area sections (lab page) */
 .lab-area {
   margin: 0 0 1em;
@@ -295,4 +421,6 @@ ol > li > ul {
 
   .pub-entry { margin-bottom: 1.1em; }
   .pub-entry .pub-title { font-size: 1em; }
+  .pub-entry .pub-thumb { width: 120px; }
+  .pub-entry .pub-thumb img { max-height: 95px; }
 }

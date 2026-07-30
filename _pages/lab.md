@@ -2,7 +2,7 @@
 layout: archive
 title: "IDEA Lab"
 permalink: /lab/
-author_profile: true
+author_profile: false
 ---
 
 <img
@@ -15,7 +15,7 @@ We are the **IDEA (Impact-Driven Evaluation for AI) Lab** in **NYU Computer Scie
 <div class="pub-area-nav">
   <a href="#research">Research</a>
   <a href="#team">Team</a>
-  <a href="#open-positions">Open Positions</a>
+  <a href="#alumni">Lab Alumni</a>
 </div>
 
 ### <a id="research"></a>Our research
@@ -67,23 +67,24 @@ We study how AI systems are actually used in practice and build methods to audit
 ## <a id="team"></a>Team
 
 <div class="team-grid">
-{% for member in site.data.team %}
-  <div class="team-member">
-    {% capture photo_url %}{{ '/images/teampics/' | append: member.photo | relative_url }}{% endcapture %}
-    {% if member.url %}<a href="{{ member.url }}"><img src="{{ photo_url }}" alt="{{ member.name }}" /></a>{% else %}<img src="{{ photo_url }}" alt="{{ member.name }}" />{% endif %}
-    <div class="team-name">{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</div>
-    <div class="team-role">{{ member.role }}</div>
-  </div>
+{% assign current_members = site.data.team | where_exp: "member", "member.alumni != true" %}
+{% for member in current_members %}
+  {% include team-member.html %}
 {% endfor %}
 </div>
 
-## <a id="open-positions"></a>Open Positions
+{% assign alumni = site.data.team | where_exp: "member", "member.alumni == true" %}
+{% if alumni.size > 0 %}
+## <a id="alumni"></a>Lab Alumni
 
-We are hiring a postdoc to develop technical evaluation methods for detecting discrimination and instability in generative AI systems used in hiring and credit decisions. This is a unique opportunity to develop methods with real-world impact, as we anticipate collaborating with industry partners in HR tech and fintech to ground our methods in real workflows. (Dates: September 2026 – August 2027, with potential to extend to two years).
+<ul class="alumni-list">
+{% for member in alumni %}
+  <li>
+    <span class="alumni-name">{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</span>
+    <span class="alumni-role">{{ member.role }}</span>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
 
-We're looking for:
-* PhD in Computer Science or related field (completed or expected before start).
-* Strong background in generative AI and/or AI evaluation, with publications at venues such as FAccT, NeurIPS, ICML, ICLR, AAAI, ACL or similar.
-* Background or interest in responsible AI / algorithmic fairness.
-
-To apply, please send a CV, brief research statement (1pg), 2–3 representative papers, and names of 2-3 references to eb1850@nyu.edu with "Postdoc Application" in the subject. Applications reviewed on a rolling basis. Please feel free to reach out for more information.
+{% include publication-lightbox.html %}

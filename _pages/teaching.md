@@ -2,7 +2,7 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
 ---
 
 ## CS-GY 9223 — Responsible AI and the Law (Fall 2026)

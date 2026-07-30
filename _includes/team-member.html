@@ -1,0 +1,10 @@
+{% comment %}
+  Renders one roster photo card. Expects `member` (an entry from _data/team.yml).
+  Photos live in /images/teampics/; `url` is optional.
+{% endcomment %}
+<div class="team-member">
+  {% capture photo_url %}{{ '/images/teampics/' | append: member.photo | relative_url }}{% endcapture %}
+  {% if member.url %}<a href="{{ member.url }}"><img src="{{ photo_url }}" alt="{{ member.name }}" /></a>{% else %}<img src="{{ photo_url }}" alt="{{ member.name }}" />{% endif %}
+  <div class="team-name">{% if member.url %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</div>
+  <div class="team-role">{{ member.role }}</div>
+</div>

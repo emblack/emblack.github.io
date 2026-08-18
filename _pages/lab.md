@@ -15,6 +15,7 @@ We are the **IDEA (Impact-Driven Evaluation for AI) Lab** in **NYU Computer Scie
 <div class="pub-area-nav">
   <a href="#research">Research</a>
   <a href="#team">Team</a>
+  <a href="#working-together">Working Together</a>
   <a href="#alumni">Lab Alumni</a>
 </div>
 
@@ -72,6 +73,12 @@ We study how AI systems are actually used in practice and build methods to audit
   {% include team-member.html %}
 {% endfor %}
 </div>
+
+## <a id="working-together"></a>Working Together
+
+**PhD applicants:** Please apply to the NYU PhD program and list me as a faculty member of interest on your application.
+
+**Masters students:** I generally do not take on masters students who have not taken one of my classes. If you have taken my class and are interested in working with me, please reach out.
 
 {% assign alumni = site.data.team | where_exp: "member", "member.alumni == true" %}
 {% if alumni.size > 0 %}
